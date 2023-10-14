@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Media/ico/Logodulcedeleche-helados.ico">
+    <title>Sabores</title>
+
+    <nav style="display:flex; justify-content:space-around;">
+        <a href="Index.html" style="text-decoration: none; color: #8B4513;">Inicio</a>
+        <a href="productos.html" style="text-decoration: none; color: #8B4513;">Productos</a>
+        <a href="sabores.html" style="text-decoration: none; color: #8B4513;">Sabores</a>
+        <a href="sucursales.html" style="text-decoration: none; color: #8B4513;">Sucursales</a>
+        <a href="pedidos.html" style="text-decoration: none; color: #8B4513;">Pedidos</a>
+    </nav>
+
+
+</head>
+
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        /* Fuente a Arial */
+        font-weight: 300;
+        /* Fuente más delgada */
+        background-color: white;
+        /* Fondo blanco */
+        color: #8B4513;
+        /* Marrón oscuro */
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #F5DEB3;
+        /* Beige claro */
+        color: #8B4513;
+        /* Marrón oscuro */
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 40px;
+        /* Títulos tamaño */
+    }
+
+    h2 {
+        font-size: 28px;
+        /* Títulos 2 */
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .sabores {
+        background-color: #F5DEB3;
+        /* Beige claro */
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+        text-align: left;
+        display: flex;
+        /* Utilizamos flexbox para colocar las categorías una al lado de la otra */
+        justify-content: space-between;
+        /* Espacio entre las categorías */
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin: 10px;
+        font-size: 12px;
+        /* Letras para los sabores */
+    }
+
+    .helado-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .tam-gr {
+        font-size: 28px;
+        /* Letras para la categoría "CREMAS" */
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+    }
+
+    footer a {
+        color: white;
+        /* Color de los hipervínculos en el footer */
+        text-decoration: none;
+        /* Sin subrayado en los hipervínculos */
+        margin: 0 10px;
+        /* Espaciado entre los hipervínculos */
+    }
+</style>
+</head>
+
+<body>
+    <header>
+        <h1>Nuestros sabores</h1>
+    </header>
+    <div class="container">
+        <div class="repeated-images">
+            <!-- Repite la imagen 5 veces -->
+            <img class="helado-img" src="Media/img/guardaSabores2.jpg" alt="Helado de muestra" width="800">
+        </div>
+        <div class="sabores">
+            <div>
+                <h2><span class="tam-gr">Cremas</span></h2>
+                <ul>
+                    <li>Cereza</li>
+                    <li>Cheesecake</li>
+                    <li>Chocolate</li>
+                    <li>Chocolate amargo</li>
+                    <li>Chocolate blanco</li>
+                    <li>Chocolate brownie</li>
+                    <li>Chocolate con almendras</li>
+                    <li>Chocolate con nuez</li>
+                    <li>Chocolate vegano</li>
+                    <li>Cookies and cream</li>
+                    <li>Crema americana</li>
+                    <li>Durazno</li>
+                    <li>Flan</li>
+                    <li>Frutilla</li>
+                    <li>Frambuesa</li>
+                    <li>Frutos patagónicos</li>
+                    <li>Granizado</li>
+                    <li>Mango</li>
+                    <li>Maracuyá</li>
+                    <li>Tiramisú</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Dulces de leche</h2>
+                <ul>
+                    <li>Dulce de leche</li>
+                    <li>Dulce de leche con almendras</li>
+                    <li>Dulce de leche con avellanas</li>
+                    <li>Dulce de leche con banana</li>
+                    <li>Dulce de leche con chips de chocolate blanco</li>
+                    <li>Dulce de leche con coco</li>
+                    <li>Dulce de leche con cookies</li>
+                    <li>Dulce de leche con frutas</li>
+                    <li>Dulce de leche con merengue</li>
+                    <li>Dulce de leche con nuez</li>
+                    <li>Dulce de leche granizado</li>
+                    <li>Dulce de leche marroc</li>
+                    <li>Dulce de leche suizo</li>
+                    <li>Dulce de leche tentación</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Al agua</h2>
+                <ul>
+                    <li>Ananá</li>
+                    <li>Cereza</li>
+                    <li>Durazno</li>
+                    <li>Frutilla</li>
+                    <li>Kiwi</li>
+                    <li>Limón</li>
+                    <li>Manzana</li>
+                    <li>Melón</li>
+                    <li>Naranja</li>
+                    <li>Pera</li>
+                    <li>Sandía</li>
+                    <li>Uva</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer style="font-size: 14px;"> <!-- Fuente pequeña -->
+        <a href="#">Trabaja con nosotros</a>
+        <a href="#">Contáctanos</a>
+        <a href="#">Abre tu franquicia</a>
+        <p>&copy; 2023 Dulce de Leche Helados - El Sabor de lo Argentino</p>
+    </footer>
+
+</body>
+
+
+
+</html>
