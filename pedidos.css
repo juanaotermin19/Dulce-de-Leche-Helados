@@ -1,0 +1,193 @@
+header {
+    background-color :#D15A7C;
+    text-align: center;
+    color:  #ffffff;
+    height: 100px;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+}
+.titulo_peso{
+    border: none;
+    color: #D15A7C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor_peso{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.boton_peso {
+    color: #D15A7C;
+    font-size: 20px;
+    margin: 15px 20px;
+}
+
+input[type="radio"] {
+    display: none
+}
+input[type="radio"] + label::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+    border: 2px solid #D15A7C; /* Cambia el color del radio button aquí */
+    border-radius: 50%; /* Hace que el radio button sea circular */
+}
+input[type="radio"]:checked + label::before {
+    background-color: #D15A7C; /* Cambia el color del radio button seleccionado aquí */
+}
+
+.contenedor_imagenes {
+    display: flex;
+    justify-content: space-between; /* Distribuir espacio horizontalmente entre las fotos */
+    align-items: center; /* Centrar verticalmente las fotos */
+    padding-top: 20px;
+
+}
+
+.item_imagen {
+    display: flex;
+    flex: 1; /* Hace que cada foto ocupe un tercio del ancho disponible */
+    margin: 0px; /* Espacio entre las fotos */
+     /* Establece el ancho máximo para cada foto */
+    text-align: center; /* Centrar el contenido dentro de cada foto */
+
+}
+.item_imagen img {
+    max-width: 100%; /* Asegura que la imagen se ajuste al ancho de su contenedor */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+  }
+
+.contenido {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente en el eje principal (x) */
+    align-items: center; /* Centra verticalmente en el eje cruzado (y) */
+    height: 100vh; /* Ocupa la altura completa de la ventana */
+    margin: 0;
+}
+.contenedor_gustos {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #D15A7C;
+    color: #ffffff;
+    border-radius: 20px;
+
+}
+.tipos {
+    font-style: bold;
+    font-size: 25px;
+    color: #F7D695;
+}
+.item_gustos{
+    flex: 1;
+    padding: 10px;  
+    margin: 0 10px;
+    text-align: center;
+    
+}
+.subtitulosI {
+    color: #D15A7C;
+    font-style: bold;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+
+
+}
+.subtitulosII {
+    font-style: bold;
+    font-weight: bolder;
+    color: #D15A7C;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+
+.info {
+    padding: 15px;
+    margin: 20px;
+    border: none;
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columnas en lugar de en filas */
+    color: #D15A7C;
+    background-color:#F7D695;
+    border-radius: 20px;
+   
+}
+
+.datos {
+    margin: 5px; /* Agrega un margen entre los inputs para separarlos */
+    border: none;
+    border: 2px solid #D15A7C;
+   
+}
+.Pago {
+    padding: 15px;
+    margin: 20px;
+    border: none;
+    display: flex;
+    background-color: #F7D695;
+    border-radius: 20px; /* redondeo de las puntas del contenedor */
+    flex-direction: column; /* Coloca los elementos en columnas en lugar de en filas */
+    color: #D15A7C
+
+
+}
+#card, #number, #date {
+    border: 2px solid #D15A7C;
+}
+
+.checkbox_input {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+   
+}
+
+
+.boton {
+  background-color:#D15A7C;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+   
+}
