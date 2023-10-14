@@ -1,0 +1,155 @@
+header{
+    background-color: #ffffff;
+    text-align: center;
+    color: #D15A7C
+}
+
+h4{
+    color: black;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.container_productos{
+    display: flex;
+    background-color: #D15A7C;
+    justify-content: center;
+    width: 100%;
+}
+
+.item_container_productos{
+    width: 40%;
+    padding: 5% 10%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.container_botes{
+    display: inline-flex;
+    background-color: #F6EEC7;
+    width: 100%;
+    padding: 0%;
+    align-content: center;
+}
+
+.item_botes > p{
+    border-bottom-color: #D15A7C;
+    border-bottom-width: 1px;
+    border-bottom-style: solid; 
+}
+
+.item_botes{
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+}
+
+.item_botes{
+    margin: 0px;
+    border: 0px;
+    padding: 10% 10%;
+    justify-content: center;
+    align-content: center;
+}
+
+.container_pastel{
+    display: flex;
+    background-color: #D15A7C;
+    justify-content: center;
+    flex-direction: row;
+    height: 5%;
+    align-content: center; 
+    column-gap: 5%;
+    row-gap: 5%;
+    padding: 2% 10%;
+}
+
+.container_pastel > div{
+    width: 20%;
+    height: 100%;
+}
+
+.container_2pastel{
+    background-color: #F6EEC7;
+    display: flex;
+    
+    justify-content: center;
+    align-content: space-around; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 4% 0%;
+    row-gap: 5%;
+}
+
+.container_2pastel > div>  p:first-child{
+    color: black;
+    font-weight: bold;
+}
+
+.item_container_2pastel{
+    width: 20%;
+    height: auto;
+    padding: 2% 2%;
+}
+
+.item_container_2pastel_img{
+    width: 20%;
+    height: 100%;
+}
+
+.container_1paletas{
+    background-color: #D15A7C;
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+}
+
+.item_imagen_paleta{
+    width: 100%;
+    height: auto;
+}
+
+.container_2paletas{
+    display: inline-flex;
+    width: 100%;
+}
+
+.item_subtitulo_paleta{
+    background-color: #ffffff;
+    text-align: center;
+    width: 100%;
+    color: #D15A7C;
+    font-weight: bold;
+}
+
+.container_3paletas{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.item_1paleta{
+    background-color: #D15A7C;
+    padding: 2% 5%;
+    flex-direction: column;
+    width: 30%;
+    color: #ffffff;
+}
+
+.item_2paleta{
+    background-color: #F7D695;
+    padding: 2% 5%;
+    flex-direction: column;
+    width: 30%;
+}
+
+.item_3paleta{
+    background-color: #EE8972;
+    padding: 2% 5%;
+    flex-direction: column;
+    width: 30%;
+}
