@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="Media/ico/Logodulcedeleche-helados.ico">
-    <title>Sabores</title>
+    <link rel="icon" href="img/icono.jpeg">
+    <title>Sabores - Dulce de Leche Helados</title>
 
     <nav style="display:flex; justify-content:space-around;">
-        <a href="Index.html" style="text-decoration: none; color: #8B4513;">Inicio</a>
-        <a href="productos.html" style="text-decoration: none; color: #8B4513;">Productos</a>
-        <a href="sabores.html" style="text-decoration: none; color: #8B4513;">Sabores</a>
-        <a href="sucursales.html" style="text-decoration: none; color: #8B4513;">Sucursales</a>
-        <a href="pedidos.html" style="text-decoration: none; color: #8B4513;">Pedidos</a>
+        <a href="Index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="sabores.html">Sabores</a>
+        <a href="sucursales.html" >Sucursales</a>
+        <a href="pedidos.html">Pedidos</a>
     </nav>
 
 
@@ -36,9 +36,9 @@
     }
 
     header {
-        background-color: #F5DEB3;
+        background-color:#D15A7C ;
         /* Beige claro */
-        color: #8B4513;
+        color:#F5DEB3;
         /* Marrón oscuro */
         padding: 10px;
     }
@@ -107,6 +107,18 @@
         margin: 0 10px;
         /* Espaciado entre los hipervínculos */
     }
+    nav a {
+    text-decoration: none;
+    color: #D15A7C;
+    transition: color 0.3s; /* Transición de color suave de 0.3 segundos */
+    transition: font-size 0.4s;/* Transición de tamaño suave de 0.3 segundos */
+    font-size: 16px; /* Tamaño de fuente inicial */
+    }
+    /* Cambio de color al pasar el mouse por encima */
+    nav a:hover {
+    color: #8B4513; /* Color diferente al pasar el mouse */
+    font-size: 18px; /* Tamaño de fuente aumentado al pasar el mouse */
+    }
 </style>
 </head>
 
@@ -117,7 +129,7 @@
     <div class="container">
         <div class="repeated-images">
             <!-- Repite la imagen 5 veces -->
-            <img class="helado-img" src="Media/img/guardaSabores2.jpg" alt="Helado de muestra" width="800">
+            <img class="helado-img" src="img/guardaSabores2.jpg" alt="Helado de muestra" width="800">
         </div>
         <div class="sabores">
             <div>

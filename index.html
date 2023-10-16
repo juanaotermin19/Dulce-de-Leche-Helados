@@ -1,34 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalized.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="Media/ico/Logodulcedeleche-helados.ico">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Dulce de leche - Helados</title>
+    <title>Dulce de Leche Helados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFF;
+            color: #8B4513;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
 
+        header {
+            background-color: #D15A7C;
+            color:#F5DEB3 ;
+            padding: 10px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .imagen {
+            margin: 10px;
+            max-width: 50%;
+            height: auto;
+        }
+
+        .texto-imagen {
+            text-align: left;
+            max-width: 50%;
+            margin-left: 20px;
+        }
+        .carousel {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .carousel-slide {
+            width: 100%;
+            display: inline-block;
+            transition: transform 1s ease;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
     
-        <nav style="display:flex; justify-content:space-around;">
-            <a href="Index.html">Inicio</a>
-            <a href="productos.html">Productos</a>
-            <a href="sabores.html">Sabores</a>
-            <a href="sucursales.html">Sucursales</a>
-            <a href="pedidos.html">Pedidos</a>
-          
-        </nav>
-    
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #D15A7C;
+            transition: color 0.3s; /* Transición de color suave de 0.3 segundos */
+            transition: font-size 0.4s;/* Transición de tamaño suave de 0.3 segundos */
+            font-size: 16px; /* Tamaño de fuente inicial */
+        }
+        /* Cambio de color al pasar el mouse por encima */
+        nav a:hover {
+            color: #8B4513; /* Color diferente al pasar el mouse */
+            font-size: 18px; /* Tamaño de fuente aumentado al pasar el mouse */
+        }
+
+        /* Estilos para pantallas pequeñas */
+        @media (max-width: 768px) {
+        /* Aquí puedes definir estilos específicos para pantallas pequeñas */
+         }
+    </style>
+    <nav style="display:flex; justify-content:space-around;">
+        <a href="Index.html" >Inicio</a>
+        <a href="productos.html" >Productos</a>
+        <a href="sabores.html" >Sabores</a>
+        <a href="sucursales.html" >Sucursales</a>
+        <a href="pedidos.html">Pedidos</a>
+    </nav>
 </head>
 
 <body>
-    <header style="background-image: url(media/img/Logo\ dulce\ de\ leche\ helados.png); background-repeat: no-repeat; 
-    background-size: cover; height: 600px; width: 1200px; position: absolute ;">
-        <main >
-        <h2>  Desde 1983 mejorando nuestras recetas para deleitar el paladar del público.</h2>
-        <h2> Helados de calidad fruto de nuestra larga experiencia.</h2>
-    </main>
+    <header>
+        <h1>Bienvenido a Dulce de Leche Helados</h1>
+        <p>¡Descubre el auténtico sabor de lo argentino!</p>
     </header>
+
+    <div class="container">
+        <img class="imagen" src="img/icono.jpeg" alt="Imagen de helado" width="200">
+        <div class="texto-imagen">
+            <h3>Nuestros helados son un homenaje a la tradición y la frescura, elaborados con pasión y los mejores ingredientes. </h3>
+            <h4>Hace más de tres décadas, en 1985, abrimos nuestras puertas en Argentina. Desde entonces, hemos compartido con orgullo el auténtico sabor argentino.</h4>
+            <p>Explora una amplia variedad de sabores, desde el icónico dulce de leche hasta frutas de temporada. </p>
+            <p>Únete a nosotros en este viaje donde el sabor argentino cobra vida. ¡Disfruta de la experiencia más dulce que tenemos para ofrecer!</p>
+        </div>
+    </div>
+
+    <footer style="font-size: 14px;">
+        <a href="#">Trabaja con nosotros</a>
+        <a href="#">Contáctanos</a>
+        <a href="#">Abre tu franquicia</a>
+        <p>&copy; 2023 Dulce de Leche Helados - El Sabor de lo Argentino</p>
+    </footer>
 </body>
+
 </html>

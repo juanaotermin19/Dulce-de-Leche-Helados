@@ -1,7 +1,7 @@
 header {
     background-color :#D15A7C;
     text-align: center;
-    color:  #ffffff;
+    color:  #F5DEB3;
     height: 100px;
     display: flex;
     justify-content: center; /* Centra horizontalmente */
@@ -12,13 +12,13 @@ header {
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
+    
 }
 
 h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
-    font-size: 60px;
+    font-size: 40px;
 }
+
 .titulo_peso{
     border: none;
     color: #D15A7C;
@@ -80,7 +80,7 @@ input[type="radio"]:checked + label::before {
     display: flex;
     justify-content: center; /* Centra horizontalmente en el eje principal (x) */
     align-items: center; /* Centra verticalmente en el eje cruzado (y) */
-    height: 100vh; /* Ocupa la altura completa de la ventana */
+   
     margin: 0;
 }
 .contenedor_gustos {
@@ -92,8 +92,10 @@ input[type="radio"]:checked + label::before {
     background-color: #D15A7C;
     color: #ffffff;
     border-radius: 20px;
+    margin-bottom: 15px;
 
 }
+
 .tipos {
     font-style: bold;
     font-size: 25px;
@@ -190,4 +192,17 @@ footer a {
     text-decoration: none;
     margin: 0 10px;
    
+}
+nav a {
+    text-decoration: none;
+    color: #D15A7C;
+    transition: color 0.3s; /* Transición de color suave de 0.3 segundos */
+    transition: font-size 0.4s;/* Transición de tamaño suave de 0.3 segundos */
+    font-size: 16px; /* Tamaño de fuente inicial */
+}
+
+/* Cambio de color al pasar el mouse por encima */
+nav a:hover {
+    color: #8B4513; /* Color diferente al pasar el mouse */
+    font-size: 18px; /* Tamaño de fuente aumentado al pasar el mouse */
 }

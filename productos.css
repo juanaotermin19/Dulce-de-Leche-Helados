@@ -3,7 +3,9 @@ header{
     text-align: center;
     color: #D15A7C
 }
-
+body {
+    font-family: Arial, sans-serif;
+}
 h4{
     color: black;
 }
@@ -152,4 +154,32 @@ img{
     padding: 2% 5%;
     flex-direction: column;
     width: 30%;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+   
+}
+nav a {
+    text-decoration: none;
+    color: #D15A7C;
+    transition: color 0.3s; /* Transición de color suave de 0.3 segundos */
+    transition: font-size 0.4s;/* Transición de tamaño suave de 0.3 segundos */
+    font-size: 16px; /* Tamaño de fuente inicial */
+}
+
+/* Cambio de color al pasar el mouse por encima */
+nav a:hover {
+    color: #8B4513; /* Color diferente al pasar el mouse */
+    font-size: 18px; /* Tamaño de fuente aumentado al pasar el mouse */
 }
