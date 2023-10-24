@@ -24,22 +24,22 @@
                 <h1> Pedidos </h1>
             </div>
         </header>
-        <article>
+     <form method="POST" action="https://formspree.io/f/mjvqloeg"> 
             <h2 class="titulo_peso">¿Qué te gustaría pedir?</h2>
             <div class="contenedor_peso">
-                
-            <form method="POST" class="boton_peso" action="https://formspree.io/f/xgejdkyz"> 
+                <p class=boton_peso>
+            
                      <input type="radio" id="opcion1" name="pedido" value="1/4" class="boton_peso">
                      <label for="opcion1" >1/4 kg </label>
                      <input type="radio" id="opcion2" name="pedido" value="1/2" class="boton_peso" >
                      <label for="opcion2" >1/2 kg</label>
                      <input type="radio" id="opcion3" name="pedido" value="1" class="boton_peso">
                      <label for="opcion3" >1 kg </label>
-             </form>
+                </p>
     
             </div>
 
-        </article>
+        
         <article class="contenedor_imagenes">
             <div class="item_imagen">
                 <img src="img/crema.jpg" alt="crema" >
@@ -63,7 +63,7 @@
             <div class="contenedor_gustos">
                 <div class="item_gustos">
                  <p class="tipos"> Dulces de Leche</p>
-        <form action="https://formspree.io/f/xgejdkyz" method="POST">
+        
                  <p>
                     <input type="checkbox" id="gustos_1" name="gustos" value="DDL" />
                     <label for="gustos_1">Dulce de leche</label>
@@ -253,7 +253,7 @@
           </div>
     
         
-         <fieldset class="info">
+          <fieldset class="info">
             <p class="subtitulosII">Datos personales </p>
             <label for="nombre"  class="checkbox_label"> Nombre: </label>
             <input type="text" class="datos" id="nombre" class="checkbox_input">
@@ -274,7 +274,7 @@
                 <label for="codigo postal" class="checkbox_label">Codigo Postal: </label>
                 <input type="text" class="datos" id="codigo postal" class="checkbox_input">
              <br>
-         </fieldset>
+          </fieldset>
     
             <section class="Pago">
                 <p class="subtitulosII">Métodos de pago</p>
@@ -312,7 +312,7 @@
             <input type="submit" value="Pedir" class="boton">
             </div><br>
             
-        </form>
+     </form>
   
         <footer style="font-size: 14px;"> <!-- Fuente pequeña -->
             <a href="#">Trabaja con nosotros</a>
