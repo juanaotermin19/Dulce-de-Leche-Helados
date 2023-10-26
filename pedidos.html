@@ -24,22 +24,22 @@
                 <h1> Pedidos </h1>
             </div>
         </header>
-     <form method="POST" action="https://formspree.io/f/mjvqloeg"> 
+        <article>
             <h2 class="titulo_peso">¿Qué te gustaría pedir?</h2>
             <div class="contenedor_peso">
-                <p class=boton_peso>
-            
-                     <input type="radio" id="opcion1" name="pedido" value="1/4" class="boton_peso">
+              
+             <form name = "formulario1" class="boton_peso">
+                     <input type="radio" id="opcion1" name="opcion1" value="1/4" class="boton_peso">
                      <label for="opcion1" >1/4 kg </label>
-                     <input type="radio" id="opcion2" name="pedido" value="1/2" class="boton_peso" >
+                     <input type="radio" id="opcion2" name="opcion2" value="1/2" class="boton_peso" >
                      <label for="opcion2" >1/2 kg</label>
-                     <input type="radio" id="opcion3" name="pedido" value="1" class="boton_peso">
+                     <input type="radio" id="opcion3" name="opcion3" value="1" class="boton_peso">
                      <label for="opcion3" >1 kg </label>
-                </p>
+             </form>
     
             </div>
 
-        
+        </article>
         <article class="contenedor_imagenes">
             <div class="item_imagen">
                 <img src="img/crema.jpg" alt="crema" >
@@ -57,13 +57,12 @@
             <p class="subtitulosI">Elegi los gustos para tu pedido (maximo 3 sabores)</p>
         </div>
 
-        
+        <form id="formulario2" >
           <div class="contenido">
             
             <div class="contenedor_gustos">
                 <div class="item_gustos">
                  <p class="tipos"> Dulces de Leche</p>
-        
                  <p>
                     <input type="checkbox" id="gustos_1" name="gustos" value="DDL" />
                     <label for="gustos_1">Dulce de leche</label>
@@ -251,20 +250,19 @@
                 </div>
             </div>
           </div>
-    
         
-          <fieldset class="info">
+         <fieldset class="info">
             <p class="subtitulosII">Datos personales </p>
             <label for="nombre"  class="checkbox_label"> Nombre: </label>
             <input type="text" class="datos" id="nombre" class="checkbox_input">
              <br>
         
             <label for="apellido" class="checkbox_label"> Apellido: </label>
-            <input type="text" class="datos" id="apellido"class="checkbox_input">
+            <input type="text" class="datos"  id="apellido" class="checkbox_input">
             <br>
             
                 <label for="direccion" class="checkbox_label" >Direccion: </label>
-                <input type="text" class="datos" id="direccion" class="checkbox_input">
+                <input type="text" class="datos"  id="direccion" class="checkbox_input">
             <br>
         
                 <label for="ciudad" >Ciudad: </label>
@@ -272,9 +270,9 @@
             <br>
         
                 <label for="codigo postal" class="checkbox_label">Codigo Postal: </label>
-                <input type="text" class="datos" id="codigo postal" class="checkbox_input">
+                <input type="text" class="datos" id="codigo postal"  class="checkbox_input">
              <br>
-          </fieldset>
+         </fieldset>
     
             <section class="Pago">
                 <p class="subtitulosII">Métodos de pago</p>
@@ -294,7 +292,7 @@
                     <span>Número de tarjeta:</span>
                     <strong><abbr title="required">*</abbr></strong>
                   </label>
-                  <input type="tel" id="number" name="cardnumber" />
+                  <input type="text" id="number" name="cardnumber" />
                 </p>
                 <p>
                   <label for="date">
@@ -309,10 +307,11 @@
             
             </div>
             <div>
-            <input type="submit" value="Pedir" class="boton">
+            <button type="submit" value="Pedir" class="boton"> Pedir</button>
+            <p class = "warnings" id="warnings"></p>
             </div><br>
             
-     </form>
+        </form>
   
         <footer style="font-size: 14px;"> <!-- Fuente pequeña -->
             <a href="#">Trabaja con nosotros</a>
@@ -322,4 +321,5 @@
         </footer>
 
     </section>
+    <script src="validacion.js"></script>
 </body>
