@@ -206,3 +206,10 @@ nav a:hover {
     color: #8B4513; /* Color diferente al pasar el mouse */
     font-size: 18px; /* Tamaño de fuente aumentado al pasar el mouse */
 }
+.warnings {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #D15A7C;
+    padding-top: 20px;
+}
