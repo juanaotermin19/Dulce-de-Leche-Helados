@@ -92,6 +92,4 @@ nav a:hover {
 @media (max-width: 768px) {
 /* Aquí puedes definir estilos específicos para pantallas pequeñas */
  }
- nav1  {
-    display:flex; 
-    justify-content:space-around;}
+ 
