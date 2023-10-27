@@ -23,7 +23,7 @@ img{
 }
 
 .item_container_productos{
-    width: 40%;
+    width: 350px;
     padding: 5% 10%;
     text-align: center;
     color: #ffffff;
@@ -35,6 +35,11 @@ img{
     width: 100%;
     padding: 0%;
     align-content: center;
+
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 5%;
 }
 
 .item_botes > p{
@@ -45,15 +50,17 @@ img{
 
 .item_botes{
     height: 100%;
-    width: 50%;
+    width: 300px;
     justify-content: center;
     align-content: center;
+    padding: 2% 5%;
 }
 
-.item_botes{
+.item_botes_img{
     margin: 0px;
     border: 0px;
-    padding: 10% 10%;
+    padding: 0%;
+    width: 50%;
     justify-content: center;
     align-content: center;
 }
@@ -81,9 +88,10 @@ img{
     
     justify-content: center;
     align-content: space-around; 
+    align-items: stretch;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 4% 0%;
+    padding: 4% 10%;
     row-gap: 5%;
 }
 
@@ -93,14 +101,15 @@ img{
 }
 
 .item_container_2pastel{
-    width: 20%;
+    width: 200px;
     height: auto;
-    padding: 2% 2%;
+    padding: 0% 2%;
 }
 
 .item_container_2pastel_img{
-    width: 20%;
+    width: 200px;
     height: 100%;
+    padding: 2% 0%;
 }
 
 .container_1paletas{
