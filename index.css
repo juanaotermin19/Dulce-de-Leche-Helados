@@ -7,6 +7,10 @@ body {
     padding: 0;
 }
 
+nav {
+    display:flex;
+    justify-content:space-around;
+}
 header {
     background-color: #D15A7C;
     color:#F5DEB3 ;
