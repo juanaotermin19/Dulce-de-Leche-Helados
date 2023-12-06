@@ -28,14 +28,17 @@
             <h2 class="titulo_peso">¿Qué te gustaría pedir?</h2>
             <div class="contenedor_peso">
               
-             <form name = "formulario1" class="boton_peso">
-                     <input type="radio" id="opcion1" name="opcion1" value="1/4" class="boton_peso">
-                     <label for="opcion1" >1/4 kg </label>
-                     <input type="radio" id="opcion2" name="opcion2" value="1/2" class="boton_peso" >
-                     <label for="opcion2" >1/2 kg</label>
-                     <input type="radio" id="opcion3" name="opcion3" value="1" class="boton_peso">
-                     <label for="opcion3" >1 kg </label>
-             </form>
+            <form name="formulario1" class="boton_peso">
+                    <input type="checkbox" id="opcion1" name="opcion" value="1/4" class="boton_peso" onclick="limitarSeleccion(this)">
+                    <label for="opcion1">1/4 kg </label>
+                
+                    <input type="checkbox" id="opcion2" name="opcion" value="1/2" class="boton_peso" onclick="limitarSeleccion(this)">
+                    <label for="opcion2">1/2 kg</label>
+                
+                    <input type="checkbox" id="opcion3" name="opcion" value="1" class="boton_peso" onclick="limitarSeleccion(this)">
+                    <label for="opcion3">1 kg </label>
+            </form>
+
     
             </div>
 
