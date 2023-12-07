@@ -6,7 +6,7 @@ from flask import request
 from flask_cors import CORS
 # Instalar con pip install mysql-connector-python
 import mysql.connector
---------------------------------------------------------
+#--------------------------------------------------------
 
 
 app = Flask(__name__)
