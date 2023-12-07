@@ -46,7 +46,7 @@ class Catalogo:
             codigo INT,
             descripcion VARCHAR(255) NOT NULL,
             cantidad INT NOT NULL,
-            precio DECIMAL(10, 2) NOT NULL,
+            precio DECIMAL(10, 2) NOT NULL)
             ''')
         self.conn.commit()
 
