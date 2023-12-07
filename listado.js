@@ -22,7 +22,7 @@ fetch(URL + 'productos')
             fila.innerHTML = '<td>' + producto.codigo + '</td>' +
                 '<td>' + producto.descripcion + '</td>' +
                 '<td align="right">' + producto.cantidad + '</td>' +
-                '<td align="right">' + producto.precio + '</td>' +
+                '<td align="right">' + producto.precio + '</td>';
     
             
             //Una vez que se crea la fila con el contenido del producto, se agrega a la tabla utilizando el método appendChild del elemento tablaProductos.
