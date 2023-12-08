@@ -47,7 +47,6 @@ main {
     display: flex;
     justify-content: center; /* Centra horizontalmente en el viewport */
     align-items: center; /* Centra verticalmente en el viewport */
-    height: 50vh; /* Establece la altura de la página al 100% del viewport */
     margin: 0;
 }
 
