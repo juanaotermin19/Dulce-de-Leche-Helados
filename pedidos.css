@@ -86,14 +86,12 @@ input[type="radio"]:checked + label::before {
 .contenedor_gustos {
     display: flex;
     justify-content: space-between;
-    width: 80%;
-    border: 1px solid #ccc;
-    padding: 20px;
-    background-color: #D15A7C;
-    color: #ffffff;
+    width: 60%;
+    padding: 0px;
+    color: #8B4513;
     border-radius: 20px;
     margin-bottom: 15px;
-
+    align-items: center;
 }
 
 .tipos {
