@@ -213,3 +213,73 @@ nav a:hover {
     color: #D15A7C;
     padding-top: 20px;
 }
+
+/*menu desplegable estilo*/
+
+*{
+    padding: 0%;
+}
+.nav{
+    width: 100%;
+    color: #ccc;
+    height: auto;
+}
+
+.nav_link{
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+}
+
+.list{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: #333;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+
+}
+.lista_oculta{
+    width: 100%;
+    list-style-type: none;
+    transition: height .4s;
+    height: 0; /* es necesario que este en 0 para ocultar el menu, luego con hidden lo abrimos*/
+    background-color: #ffffff;
+}
+.lista_sabores1{
+    list-style-type: none;
+    overflow: hidden; /*hidden oculta la lista oculta que tiene adentro los sabores*/
+    color: #333;
+    width: 100%;
+    background-color: #D15A7C;
+    align-items: center;
+    padding: 10 px;
+}
+
+.lista_sabores2{
+    list-style-type: none;
+    overflow: hidden; /*hidden oculta la lista oculta que tiene adentro los sabores*/
+    color: #333;
+    width: 100%;
+    background-color: #F7D695;
+    padding: 10 px;
+}
+.lista_sabores3{
+    list-style-type: none;
+    overflow: hidden; /*hidden oculta la lista oculta que tiene adentro los sabores*/
+    color: #333;
+    width: 100%;
+    background-color: #EE8972;
+    padding: 10 px;
+}
+
+.lista_item{
+    text-align: center;
+    width: 100%;
+    list-style-type: none; /*le quita los puntos por defecto que vienen en las listas*/
+
+}
