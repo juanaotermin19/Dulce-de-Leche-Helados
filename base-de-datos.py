@@ -6,6 +6,11 @@ from flask import request
 from flask_cors import CORS
 # Instalar con pip install mysql-connector-python
 import mysql.connector
+# Si es necesario, pip install Werkzeug
+from werkzeug.utils import secure_filename
+# No es necesario instalar, es parte del sistema standard de Python
+import os
+import time
 #--------------------------------------------------------
 
 
@@ -112,7 +117,7 @@ class Catalogo:
 # Cuerpo del programa
 #--------------------------------------------------------------------
 # Crear una instancia de la clase Catalogo
-catalogo = Catalogo(host='localhost', user='root', password='', database='miapp')
+catalogo = Catalogo(host='Caucota2023.mysql.pythonanywhere-services.com', user='Caucota2023', password='KarlaDuran', database='Caucota2023$miapp')
 
 
 #--------------------------------------------------------------------
@@ -169,7 +174,7 @@ def modificar_producto(codigo):
     nueva_descripcion = request.form.get("descripcion")
     nueva_cantidad = request.form.get("cantidad")
     nuevo_precio = request.form.get("precio")
-    nuevo_proveedor = request.form.get("proveedor")
+
     
     # Actualización del producto
     if catalogo.modificar_producto(codigo, nueva_descripcion, nueva_cantidad, nuevo_precio):
